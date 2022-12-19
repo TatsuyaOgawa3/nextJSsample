@@ -6,7 +6,7 @@ export default function Contact() {
     <div className={styles.stack}>
       <h3 className={styles.heading}>Contact</h3>
       <Social iconSize="30px" />
-      <adress>cube@web.mail.address</adress>
+      <address>cube@web.mail.address</address>
     </div>
   )
 }

@@ -13,17 +13,17 @@
     width: 240px;
     position: sticky;
     top: 40px;
-    align-self: flex-star;
+    align-self: flex-start;
   }
-}
 
-.sidebar * {
-  text-align: right;
-}
+  .sidebar * {
+    text-align: right;
+  }
 
-.sidebar :is(div, ul) {
-  width: fit-content;
-  margin-left: auto;
-  place-items: flex-end;
-  place-content: flex-end;
+  .sidebar :is(div, ul) {
+    width: fit-content;
+    margin-left: auto;
+    place-items: flex-end;
+    place-content: flex-end;
+  }
 }
